@@ -1,14 +1,10 @@
 import React from "react";
 
-const Total = () => {
-
-    const exercises1 = 10;
-    const exercises2 = 7;
-    const exercises3 = 14;
+const Total = (props) => {
 
     return (
       <div>
-        <p>Number of exercises {exercises1 + exercises2 + exercises3}</p>
+        <p>Number of exercises {props.exercise + props.exercises + props.exercise}</p>
       </div>
     )
   }
